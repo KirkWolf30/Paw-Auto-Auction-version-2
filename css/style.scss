@@ -1,0 +1,666 @@
+$dark: #1D241F;
+$matte: #2A332D;
+$green: #56b170;
+$white: #ffffff;
+$red: #f17e7e;
+
+
+
+.text-success{
+    color: $green !important;
+}
+
+
+
+
+body, html{
+    font-family: 'Abel', sans-serif !important;
+
+}
+
+.text-danger{
+    color: $red !important;
+}
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button{
+color: $white!important;
+text-decoration: underline;
+}
+.buttonX{
+    color: $dark!important;
+    text-decoration: underline;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100% !important;
+    overflow: hidden;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+    border-radius: 30px;
+
+}
+  
+  body::-webkit-scrollbar-track {
+    background: $dark !important;        /* color of the tracking area */
+
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: $green;    /* color of the scroll thumb */
+    border-radius: 30px;       /* roundness of the scroll thumb */
+  }
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.btn{
+    background-color: $dark !important;
+    color: $green !important;
+    border-radius: 10px !important;
+    width: 110px  !important;
+ 
+}
+
+.btn:hover{
+    background-color: $green !important;
+    color: $dark !important;
+}
+
+body{
+    background-color: $white;
+    width: 100% !important;
+   overflow: hidden !important;
+   overflow-y: scroll !important;
+   
+}
+
+
+.logo{
+    width: 100%;
+    max-width: 40px;
+}
+
+
+
+#burger div{
+    width: 25px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: $white;
+
+    
+}
+
+
+#burger  .line2{
+    width: 20px;
+
+}
+
+  
+
+.nav-link{
+    color: $matte !important;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: $green;
+    transition: all .3s ease;
+}
+
+
+.dark {
+    background-color: $matte;
+    color: $white;
+
+    h1{
+        color: $green;
+    }
+
+    a{
+        color: $green;
+        cursor: default;
+    }
+
+    .btn{
+        background-color: $dark!important;
+        color: $green !important;
+        border-radius: 10px !important;
+        cursor: pointer;
+    }
+    
+    .btn:hover{
+        background-color: $green !important;
+        color: $dark !important;
+    }
+    
+
+    .forms form{
+        display: flex;
+        flex-direction: column;
+    
+        input , textarea{
+            background: none;
+            border: none;
+            outline: none;
+    
+            border-bottom: 2px solid $green;
+            color: $white;
+    
+        }
+    
+    
+    }
+
+    a{
+        color: $white;
+        cursor: pointer;
+    }
+
+label{
+    color: #6d6c6c;
+}
+
+
+.signImage {
+
+    position: relative;
+
+
+    img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s ease;
+
+}
+
+img:hover{
+    transform: scale(1.02 , 1.02);
+    transition: all .4s ease;
+}
+
+.round{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: $dark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(70% , 20%);
+    cursor: pointer;
+}   
+
+}
+
+}
+
+
+
+
+
+.light{
+    background-color: $white !important;
+    color: $dark;
+
+    h1{
+        color: $green;
+    }
+
+    a{
+        color: $dark;
+        cursor: default;
+    }
+
+    .btn{
+        background-color: $matte !important;
+        color: $green !important;
+        border-radius: 10px !important;
+        width: 120px  !important;
+        cursor: pointer;
+    }
+    
+    .btn:hover{
+        background-color: $green !important;
+        color: $dark !important;
+    }
+    
+
+    .forms form{
+        display: flex;
+        flex-direction: column;
+    
+        input , textarea{
+            background: none;
+            border: none;
+            outline: none;
+    
+            border-bottom: 2px solid $matte;
+            color: $dark
+    
+        }
+    
+  
+    }
+
+    a{
+        
+        cursor: pointer;
+    }
+
+    
+
+    .signImage {
+
+        position: relative;
+    
+    
+        img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all .4s ease;
+    
+    }
+    
+    img:hover{
+        transform: scale(1.02 , 1.02);
+        transition: all .4s ease;
+    }
+    
+    .round{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(70% , 20%);
+        cursor: pointer;
+    }   
+    
+    }
+
+}
+
+.card{
+    height: 350px;
+    position: relative;
+    border-radius: 10px !important;
+    background-color: #ffffff !important;
+    border: 1px solid #1d241f6c;
+
+    .round{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        position: absolute;
+        top: 0%;
+        left:50%;
+        transform: translate(-50% , -60%);
+    }
+
+    .i{
+        width: 100%;
+        max-width: 100px;
+
+    }
+}
+
+
+.category{
+
+.card{
+    border-radius: 15px !important;
+    background-color: $matte !important;
+    border: none;
+    color: $white;
+    
+    h4{
+        color: $green;
+    }
+}
+
+}
+
+
+
+footer{
+    color: #585858;
+}
+
+.Menufooter{
+    background-color: $matte;
+    z-index: 1000;
+
+    .profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.tNav,.sNav{
+    display: flex;
+    align-items: center;
+}
+
+.profileNav{
+width: 35px;
+height: 35px;
+border-radius: 50%;
+border: 1px solid $white;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.profileP{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detailPic{
+    width: 200px;
+height: 200px;
+border-radius: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.detailText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.usernameX , .call{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logs{
+    
+        font-size: 24px;
+  color: $white;
+
+}
+
+
+.post{
+    border-top: 3px solid #e5e5e50c;
+
+    .text-post{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+#Category{
+    background: none;
+    border: none;
+    outline: none;
+
+    background-color: $dark;
+    border-radius: 30px;
+    padding: .2rem .5rem;
+
+    color: $green;
+
+option{
+    background: none;
+    border: none;
+    outline: none;
+
+    background-color: $dark;
+    border-radius: 10px;
+    color: $white;
+
+}
+
+}
+
+
+ #post_Display{
+    width: 95%;
+    position: relative;
+cursor: pointer;
+border-radius: 5%;
+
+}
+
+.img-form{
+    position: relative;
+
+    .round{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0%;
+        right:10%;
+        transform: translate(10% , 50%);
+        cursor: pointer;
+    }
+}
+
+.itemPicture{
+    width: 100%;
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+
+}
+
+.description{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.description::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+    border-radius: 30px;
+
+}
+  
+.description::-webkit-scrollbar-track {
+    background: $matte !important;        /* color of the tracking area */
+
+}
+  
+.description::-webkit-scrollbar-thumb {
+    background-color: $green;    /* color of the scroll thumb */
+    border-radius: 30px;       /* roundness of the scroll thumb */
+  }
+
+ .links{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+align-items: center;
+  }
+
+  .Id{
+      display: flex;
+  }
+
+  #Search{
+      width: 80%;
+      background: none !important;
+      border: none !important;
+      outline: none !important;
+      color: $white;
+      background-color: $dark !important;
+      border-radius: 30px !important;
+  }
+
+.searchOut{
+    background-color: $white !important;
+    border-radius: 10px  !important;
+
+.imgWrapper{display: flex;
+justify-content: center;
+}
+
+    .imageContainer{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid $green;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .username{
+        color: $matte;
+    }
+
+}
+
+
+.bidSlip{
+    border: 2px solid $white;
+    border-radius: 5px;
+
+    .note{
+        color: #585858;
+
+    }
+
+    .bidAmount{
+        display: flex;
+        justify-content: center;
+
+        .amnt{
+            background: none;
+            border: none;
+            outline:none;
+            border-bottom: 2px dotted $dark ;
+            font-size: 20px;
+            color: $green;
+        }
+    }
+
+    .sign h1{
+     font-family: 'Dancing Script', cursive !important;
+    }
+
+}
+
+.bidPaper{
+    
+    border-radius: 5px;
+
+    .bidPaper_Image{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    }
+
+    .imageP{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+//mobile
+@media screen and (max-width:700px){
+
+
+    
+    .snav{
+        position: absolute;
+        left: 0;
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: $matte;
+        top: 0;
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: all .5s ease;
+       
+        li{
+            margin-bottom: 5rem;
+        }
+    }
+    .tnav{
+        z-index: 1000;
+    }
+
+    .active{
+        transform: translateX(0%);
+        opacity: 1;
+        transition: all .5s ease;
+
+    }
+
+}

@@ -1,0 +1,563 @@
+<div class="col-xl-6 img px-3">
+
+<!-- item picture -->
+<div class="itemPicture" style="background-image: url(Images/build/GT.jpg);
+">
+
+</div>
+<!-- item picture End Div -->
+
+
+</div>
+
+<div class="col-xl-6 text px-3">
+
+<h1 class="my-2" >2020 Ford Gt</h1>
+
+<div class="Id">
+<label class="" >Item id No:</label>
+
+<p class="mx-2">  7 </p>
+</div>
+
+<label class="my-2" >Description:</label>
+
+
+<p class="my-1 description" >
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Quis, amet minima. Esse praesentium quibusdam omnis obcaecati 
+  iusto quasi. Perferendis, quo a? Vel obcaecati at labore 
+  amet odit ipsam laborum, saepe maiores, consequatur eligendi 
+ 
+</p>
+
+<div class=" row dates my-2">
+
+<div class="text-post col-lg-12">
+<label class="text-success col-lg-6" >Bid-Start-date:</label>
+
+<p class="m-1 col-lg-6" >
+  2020-8-04
+</p>
+</div>
+
+<div class="text-post col-lg-12">
+<label class="text-danger  col-lg-6" >Bid-End-date:</label>
+
+<p class="m-1   col-lg-6" >
+  2020-21-04
+</p>
+</div>
+
+</div>
+
+<div class="text-post col-lg-12">
+<label class="  col-lg-6" >Starting-Bid-Price:</label>
+
+<p class="m-1 text-success  col-lg-6" >
+  GHC 200000
+</p>
+</div>
+
+</div>
+
+<div class="links">
+<a href="#" class="btn ">
+  Bid
+</a>
+
+<form action="" method="POST">
+
+<button type="submit">
+<a href="#" class="text-success" >
+  View Bids
+  <lord-icon
+    src="https://cdn.lordicon.com//tyounuzx.json"
+    trigger="loop"
+    colors="primary:#e5e5e5,secondary:#34d761"
+    style="width:30px;height:30px">
+</lord-icon>
+</a>
+
+</button>
+
+</form>
+
+<form action="" method="POST">
+
+<button type="submit">
+<a href="#" class="text-danger">
+Delete
+<lord-icon
+    src="https://cdn.lordicon.com//gsqxdxog.json"
+    trigger="loop"
+    colors="primary:#e5e5e5,secondary:#f17e7e"
+    style="width:30px;height:30px">
+</lord-icon>
+</a>
+</button>
+
+</form>
+</div>
+
+</div>
+
+
+
+$Start_Price =  date('Y-m-d' , strtotime($_POST['Start_Price']));
+$End_Date =  date('Y-m-d' , strtotime($_POST['End_Date']));
+
+
+<div class="container-fluid post">
+
+<div class="row align-items-center my-3 g-5">
+
+<div class="col-xl-6 img px-3">
+
+<!-- item picture -->
+<div class="itemPicture" style="background-image: url(Images/build/GT.jpg);
+">
+
+</div>
+<!-- item picture End Div -->
+
+
+</div>
+
+<div class="col-xl-6 text px-3">
+
+<h1 class="my-2" >2020 Ford Gt</h1>
+
+<div class="Id">
+<label class="" >Item id No:</label>
+
+<p class="mx-2">  7 </p>
+</div>
+
+<div class="Id">
+<label class="" >Owner:</label>
+
+<p class="mx-2">  KirkWolf30 </p>
+</div>
+
+
+<label class="my-2" >Description:</label>
+
+
+<p class="my-1 description" >
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Quis, amet minima. Esse praesentium quibusdam omnis obcaecati 
+  iusto quasi. Perferendis, quo a? Vel obcaecati at labore 
+  amet odit ipsam laborum, saepe maiores, consequatur eligendi 
+ 
+</p>
+
+<div class=" row dates my-2">
+
+<div class="text-post col-lg-12">
+<label class="text-success col-lg-6" >Bid-Start-date:</label>
+
+<p class="m-1 col-lg-6" >
+  2020-8-04
+</p>
+</div>
+
+<div class="text-post col-lg-12">
+<label class="text-danger  col-lg-6" >Bid-End-date:</label>
+
+<p class="m-1   col-lg-6" >
+  2020-21-04
+</p>
+</div>
+
+</div>
+<div class="text-post col-lg-12">
+<label class="  col-lg-6" >Starting-Bid-Price:</label>
+
+<p class="m-1 text-success  col-lg-6" >
+  GHC 200000
+</p>
+</div>
+
+</div>
+
+<div class="links">
+<a href="#" class="btn ">
+  Bid
+</a>
+
+<form action="" method="POST">
+
+<button type="submit">
+<a href="#" class="text-success" >
+  View Bids
+  <lord-icon
+    src="https://cdn.lordicon.com//tyounuzx.json"
+    trigger="loop"
+    colors="primary:#e5e5e5,secondary:#34d761"
+    style="width:30px;height:30px">
+</lord-icon>
+</a>
+
+</button>
+
+</form>
+
+<form action="" method="POST">
+
+<button type="submit">
+<a href="#" class="text-danger">
+Delete
+<lord-icon
+    src="https://cdn.lordicon.com//gsqxdxog.json"
+    trigger="loop"
+    colors="primary:#e5e5e5,secondary:#f17e7e"
+    style="width:30px;height:30px">
+</lord-icon>
+</a>
+</button>
+
+</form>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="container col-md-8 offset-md-2">
+<p>1 Search Result(s)  </p>
+
+</div>
+
+<div class="container searchOut my-4 col-md-8 offset-md-2 text-center">
+
+<div class="row align-items-center py-3">
+
+<div class="col-6 imgWrapper ">
+
+<div class="imageContainer"  ></div>
+
+</div>
+
+<div class="col-6 username">
+
+<div class="Id">
+<label class="" >Username:</label>
+
+<p class="mx-2">  KirkWolf30 </p>
+</div>
+
+
+<div class="Id">
+<label class="" >Phone:</label>
+
+<p class="mx-2"> 0570900062</p>
+</div>
+
+
+
+
+<div class="container my-2 py-2">
+
+<h1  class=" my-2 py-2">Bids</h1>
+
+<div class="container my-2 py-2 bidPaper light">
+
+<div class="row align-items-center text-center g-4">
+
+<div class="col-md-6 imageP">
+
+<div class="bidPaper_Image"> </div>
+
+</div>
+
+<div class="col-md-6 detail text-center" >
+
+<h3>Kirk Wolf</h3>
+<h3>Ghc 200000</h3>
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<?php
+
+include 'Asset/subs/web_Header.php';
+
+?>
+
+
+
+
+
+
+<section id="home" class="dark pt-5">
+
+<div class="container ">
+
+<div class="row align-items-center">
+
+<div class="col-md-6">
+
+<h3 class="mt-5">Welcome to</h3>
+
+<h1 class="my-3">
+    PAW AUTO AUCTION
+</h1>
+
+<h4 class="my-3">
+    Make it, own it
+</h4>
+
+<p>
+    An application with the main aim of making the auction process 
+    <a href="#">fun </a>, <a href="#">easy </a> and <a href="#">fast </a> while efficient for <a href="#"> everyone </a>
+</p>
+
+
+<a href="signin.php" class="btn my-4">
+    Get Started
+</a>
+
+</div>
+
+
+
+<div class="col-md-6 image my-5">
+    
+<img src="Images/build/sale.svg" alt="" class="img-fluid">
+
+</div>
+
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5E5E5" fill-opacity="1" d="M0,96L15,101.3C30,107,60,117,90,144C120,171,150,213,180,197.3C210,181,240,107,270,80C300,53,330,75,360,96C390,117,420,139,450,128C480,117,510,75,540,53.3C570,32,600,32,630,58.7C660,85,690,139,720,176C750,213,780,235,810,224C840,213,870,171,900,176C930,181,960,235,990,261.3C1020,288,1050,288,1080,250.7C1110,213,1140,139,1170,96C1200,53,1230,43,1260,53.3C1290,64,1320,96,1350,128C1380,160,1410,192,1425,208L1440,224L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z" class="d-none"></path></svg>
+</section>
+
+
+<section id="about" class="light my-3">
+
+<div class="container">
+
+<div class="row g-5">
+
+<h2 class="mb-5">Aims and Objectives</h2>
+
+<div class="col-xl-3 mb-4">
+
+<div class="card light text-center px-2">
+
+<div class="round">
+<img src="Images/build/hands.svg" alt="" class="i">
+</div>
+
+<h4 class="mt-5">Safe Transactions</h4>
+
+<p>
+This would be achieved by avoiding any means of online payement to avoid any sort of fraudulent activities,
+also the bid slip would be built like an official agreement page with signature and users would be encouraged 
+to take a screen shot while bidding. this would be changed in the next upgrade as every bid placed would be downloaded
+as a pdf file. 
+</p>
+
+</div>
+
+</div>
+
+<div class="col-xl-3 mb-4">
+<div class="card light text-center px-2">
+
+<div class="round">
+<img src="Images/build/Money.png" alt="" class="i">
+</div>
+
+<h4 class="mt-5">Quick Sale</h4>
+
+<p>
+This is one of our top piorities, we plan on achieving this by making the whole system easy to understand and use, so easy a child could use it without any
+ adult supervision, by making the process in any activity short and simple, especially
+ posting an item. 
+</p>
+
+</div>
+
+</div>
+
+<div class="col-xl-3 mb-4">
+<div class="card light text-center px-2">
+
+<div class="round">
+<img src="Images/build/Car.png" alt="" class="i">
+</div>
+
+<h4 class="mt-5">Fast Process</h4>
+
+<p>
+We plan on achieving this, by making the wireframe or steps in achieving any goal short and simple,
+hence fast and efficient for anyone anywhere.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-xl-3 mb-4">
+
+<div class="card light text-center px-2">
+
+<div class="round">
+
+<lord-icon
+    src="https://cdn.lordicon.com//iltqorsz.json"
+    trigger="loop"
+    colors="primary:#2a332d,secondary:#34d761"
+    style="width:100px;height:100px"
+    class="i"
+>
+</lord-icon>
+
+</div>
+
+<h4 class="mt-5">High Advertisment</h4>
+
+<p>
+
+High Advertisment is one of key element, if not the main key to making an auction very succeful,
+as the more people involed the higher the chances of selling your items,
+to achieve this we plan on making really good use of social medias and ads on google platforms to gain more recognition.
+
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="container my-3 category">
+
+<div class="row g-5">
+
+<h2 class="mb-2">Categories</h2>
+
+<div class="col-xl-3 mb-4">
+
+<div class="card card2 px-2 text-center">
+<h4 class="my-2"> Automobile </h4>
+
+<p>
+automobile is a means of transportation that usually has wheels and an engine. ... A passenger vehicle, usually four-wheeled, propelled by an engine or motor that is part of it, especially an internal-combustion engine, and meant for traveling on streets or roads; motorcar , bikes , even plane if possible.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-xl-3 mb-4">
+
+<div class="card card2 px-2 text-center">
+<h4 class="my-2"> Engines </h4>
+
+<p>
+    Self explanatory, the engine that propels an automobile. auto, automobile, car, motorcar, machine - a motor vehicle with four wheels; usually propelled by an internal combustion engine.
+</p>
+
+</div>
+
+</div>
+
+<div class="col-xl-3 mb-4">
+    
+<div class="card card2 px-2 text-center">
+<h4 class="my-2"> Auto Parts </h4>
+
+<p>
+    A vehicle is composed of a number of auto parts. 
+    Over time, it's inevitable that some forms of car 
+    service will be performed on any vehicle. 
+    Over the lifetime of your vehicle, you will need to 
+    replace the tires, windshield wipers, brake pads, battery, 
+    spark plugs, and countless other auto parts.</p>
+
+</div>
+
+</div>
+
+<div class="col-xl-3 mb-4">
+    
+<div class="card card2 px-2 text-center">
+<h4 class="my-2"> Others </h4>
+
+<p>
+
+This category contains anything, but must be auto mechanics related, being paint spray,
+wraps, stikers, vslyns etc.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+</section>
+
+
+<section id="contact" class="dark  ">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5E5E5" fill-opacity="1" d="M0,64L16,101.3C32,139,64,213,96,234.7C128,256,160,224,192,176C224,128,256,64,288,48C320,32,352,64,384,96C416,128,448,160,480,144C512,128,544,64,576,32C608,0,640,0,672,21.3C704,43,736,85,768,101.3C800,117,832,107,864,112C896,117,928,139,960,144C992,149,1024,139,1056,112C1088,85,1120,43,1152,48C1184,53,1216,107,1248,149.3C1280,192,1312,224,1344,234.7C1376,245,1408,235,1424,229.3L1440,224L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z" class="d-none"></path></svg>
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-md-6 image">
+<img src="Images/build/contact.svg" alt="" class="img-fluid">
+</div>
+
+<div class="col-md-6 forms">
+    
+<form action="" method="" class="px-3">
+
+<input type="text" name="name" placeholder="*Your Name" class="py-3 px-2 my-2">
+<input type="email" name="mail" placeholder="*Your Email" class="py-3 px-2 my-2">
+<input type="text" name="subject" placeholder="*Subject" class="py-3 px-2 my-2">
+
+<textarea name="message" id="" cols="30" rows="5" class=" px-2 my-2" placeholder="*Enter Message"></textarea>
+
+<button class="btn mt-3" name="Send"> Send </button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5E5E5" fill-opacity="1" d="M0,64L16,101.3C32,139,64,213,96,234.7C128,256,160,224,192,176C224,128,256,64,288,48C320,32,352,64,384,96C416,128,448,160,480,144C512,128,544,64,576,32C608,0,640,0,672,21.3C704,43,736,85,768,101.3C800,117,832,107,864,112C896,117,928,139,960,144C992,149,1024,139,1056,112C1088,85,1120,43,1152,48C1184,53,1216,107,1248,149.3C1280,192,1312,224,1344,234.7C1376,245,1408,235,1424,229.3L1440,224L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z" class="d-none"></path></svg>
+
+</section>
+
+
+<?php
+
+include 'Asset/subs/web_Footer.php';
+
+?>
